@@ -1,7 +1,7 @@
 #parent {
     display: flex;
     flex-direction: column;
-    height: 57vw;
+    height: 41vw;
     width: 35vw;
     align-items: center;
     background: #c2292e;
@@ -14,5 +14,32 @@
 }
 #fin{
 
-    margin: 10vw;
+    margin: 2vw;
+}
+#content{
+
+    display: flex;
+    justify-content: center;
+}
+button{
+background-color: rgb(11, 144, 6);
+    margin: 1vw;
+    border:none;
+    border-radius: 40px;
+    height: 3vw;
+}
+#titre{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+#question{
+    color:white;
+    background-color: #850b0f;
+   width: 35vw;
+   text-align: center;
+  
+}
+#texte,#fin{
+
+    color:white;
 }
