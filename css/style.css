@@ -2,15 +2,20 @@
     display: flex;
     flex-direction: column;
     height: 41vw;
-    width: 35vw;
+    width: 30vw;
     align-items: center;
     background: #c2292e;
+    border-radius: 20px;
 }
 #login,#password {
-    margin: 15px;
+    margin: 10px;
     border-radius: 56px;
     width: 12vw;
     height: 3vw;
+    box-shadow: 2px 3px 5px black;
+    font-family: 'Henny Penny', cursive;
+    font-size: 2em;
+    text-align: center;
 }
 #fin{
 
@@ -21,25 +26,65 @@
     display: flex;
     justify-content: center;
 }
-button{
+#log{
 background-color: rgb(11, 144, 6);
     margin: 1vw;
     border:none;
     border-radius: 40px;
     height: 3vw;
+    width: 15vw;
+    font-family: 'Henny Penny', cursive;
+    font-size: 2em;
+    box-shadow: 2px 3px 5px black;
+   
 }
+
+#log:active{
+
+    transform: scale(1.2);
+}
+#facebook{
+    
+    background-color: rgb(27, 60, 168);
+        margin: 1vw;
+        border:none;
+        border-radius: 40px;
+        height: 3vw;
+        width: 15vw;
+        font-family: 'Henny Penny', cursive;
+        font-size: 2em;
+        box-shadow: 2px 3px 5px black;
+    }
+#facebook:active{
+
+    transform: scale(1.2);
+}
+
+
 #titre{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Henny Penny', cursive;
 color: white;
+font-size: 4em;
+text-shadow: 5px 3px 0px white;
 }
-#question{
-    color:white;
+#question {
+    color: white;
     background-color: #850b0f;
-   width: 35vw;
-   text-align: center;
-  
+    width: 30vw;
+    text-align: center;
+    font-family: 'Henny Penny', cursive;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 #texte,#fin{
-
+    font-family: 'Henny Penny', cursive;
     color:white;
+  
+    
 }
+
+
+
