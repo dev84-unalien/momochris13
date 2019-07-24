@@ -1,0 +1,18 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+    height: 57vw;
+    width: 35vw;
+    align-items: center;
+    background: #c2292e;
+}
+#login,#password {
+    margin: 15px;
+    border-radius: 56px;
+    width: 12vw;
+    height: 3vw;
+}
+#fin{
+
+    margin: 10vw;
+}
