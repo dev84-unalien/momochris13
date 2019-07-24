@@ -1,6 +1,7 @@
 let mail = $('#login');
 let pass = $('#password');
 let submit = $('#log');
+let fbk = $("#facebook");
 
 
 
@@ -32,7 +33,37 @@ function monHandler(result){
 
 }
 
+function logFacebook(){
+
+	$.ajax({
+
+	url : " http://192.168.1.112:8001/facebook",
+	type : "POST",
+	data : {email : mail.val() , password: pass.val() },
+	success : monHandlerFbk,
+
+	error:function(){
+
+		alert("dtc");
+	}
+});
+
+function monHandlerFbk(result){
+
+	alert(result.message);
+
+
+}
+
+
+}
+
+
 
 submit.click(function(){
 	sendData();
-})
+});
+
+fbk.click(function(){
+	sendData();
+});
