@@ -24,7 +24,7 @@ function sendData(){
 
 function monHandler(result){
 
-	console.log(result.message);
+	alert(result.message);
 
 
 }
