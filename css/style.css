@@ -1,8 +1,7 @@
 #parent {
     display: flex;
     flex-direction: column;
-    height: 41vw;
-    width: 30vw;
+  
     align-items: center;
     background: #c2292e;
     border-radius: 20px;
@@ -10,11 +9,10 @@
 #login,#password {
     margin: 10px;
     border-radius: 56px;
-    width: 12vw;
-    height: 3vw;
+  
     box-shadow: 2px 3px 5px black;
     font-family: 'Henny Penny', cursive;
-    font-size: 2em;
+    font-size: 2vw;
     text-align: center;
 }
 #fin{
@@ -22,7 +20,7 @@
     margin: 2vw;
 }
 #content{
-
+height: 190vw;
     display: flex;
     justify-content: center;
 }
@@ -31,8 +29,7 @@ background-color: rgb(11, 144, 6);
     margin: 1vw;
     border:none;
     border-radius: 40px;
-    height: 3vw;
-    width: 15vw;
+  
     font-family: 'Henny Penny', cursive;
     font-size: 2em;
     box-shadow: 2px 3px 5px black;
@@ -49,8 +46,7 @@ background-color: rgb(11, 144, 6);
         margin: 1vw;
         border:none;
         border-radius: 40px;
-        height: 3vw;
-        width: 15vw;
+        
         font-family: 'Henny Penny', cursive;
         font-size: 2em;
         box-shadow: 2px 3px 5px black;
@@ -70,7 +66,7 @@ text-shadow: 5px 3px 0px white;
 #question {
     color: white;
     background-color: #850b0f;
-    width: 30vw;
+
     text-align: center;
     font-family: 'Henny Penny', cursive;
     height: 4vw;
